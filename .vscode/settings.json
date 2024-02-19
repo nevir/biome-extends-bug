@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.*": false,
+    "**/*.config.*": false,
+    "**/*.lock": false,
+    "**/node_modules/": false,
+    "**/tsconfig*.json": false,
+    "**/biome.json": false
+  },
+
+  // Language / Syntax Overrides
+  "files.associations": {
+    "**/examples/**/example.json": "jsonc"
+  },
+}

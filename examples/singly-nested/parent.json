@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "include": ["example.json"],
+      "json": {
+        "parser": {
+          "allowComments": true,
+          "allowTrailingCommas": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "biome-extends-bug",
+  "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "test-no-nesting": "cd ./examples/no-nesting && yarn run biome check example.json",
+    "test-singly-nested": "cd ./examples/singly-nested && yarn run biome check example.json",
+    "test-doubly-nested": "cd ./examples/doubly-nested && yarn run biome check example.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3"
+  }
+}

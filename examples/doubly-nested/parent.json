@@ -1,0 +1,3 @@
+{
+  "extends": ["./grandparent.json"]
+}
